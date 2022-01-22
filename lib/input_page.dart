@@ -9,11 +9,74 @@ class _InputPageState extends State<InputPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        appBar: AppBar(
-          title: Text('BMI CALCULATOR'),
-        ),
-        body: Center(
-          child: Text('Body Text'),
-        ));
+      appBar: AppBar(
+        title: Text('BMI CALCULATOR'),
+      ),
+      body: Column(
+        children: [
+          Expanded(
+            child: Row(
+              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+              children: [
+                Card(
+                  margin: EdgeInsets.all(15),
+                  color: Color(0xff1d1e33),
+                  child: SizedBox(
+                    height: 200,
+                    width: 170,
+                  ),
+                ),
+                Card(
+                  margin: EdgeInsets.all(15),
+                  color: Color(0xff1d1e33),
+                  child: SizedBox(
+                    height: 200,
+                    width: 170,
+                  ),
+                ),
+              ],
+            ),
+          ),
+          Expanded(
+            child: Row(
+              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+              children: [
+                Card(
+                  margin: EdgeInsets.all(15),
+                  color: Color(0xff1d1e33),
+                  child: SizedBox(
+                    height: 200,
+                    width: 360,
+                  ),
+                ),
+              ],
+            ),
+          ),
+          Expanded(
+            child: Row(
+              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+              children: [
+                Card(
+                  margin: EdgeInsets.all(15),
+                  color: Color(0xff1d1e33),
+                  child: SizedBox(
+                    height: 200,
+                    width: 170,
+                  ),
+                ),
+                Card(
+                  margin: EdgeInsets.all(15),
+                  color: Color(0xff1d1e33),
+                  child: SizedBox(
+                    height: 200,
+                    width: 170,
+                  ),
+                ),
+              ],
+            ),
+          ),
+        ],
+      ),
+    );
   }
 }
