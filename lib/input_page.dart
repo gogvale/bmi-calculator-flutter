@@ -17,22 +17,20 @@ class _InputPageState extends State<InputPage> {
           Expanded(
             child: Row(
               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+              crossAxisAlignment: CrossAxisAlignment.stretch,
               children: [
-                Card(
-                  margin: EdgeInsets.all(15),
-                  color: Color(0xff1d1e33),
-                  child: SizedBox(
-                    height: 200,
-                    width: 150,
+                Expanded(
+                  child: Card(
+                    margin: EdgeInsets.all(15),
+                    color: Color(0xff1d1e33),
+                    child: Text(''),
                   ),
                 ),
-                Card(
-                  margin: EdgeInsets.all(15),
-                  color: Color(0xff1d1e33),
-                  child: SizedBox(
-                    height: 200,
-                    width: 150,
-                  ),
+                Expanded(
+                  child: Card(
+                      margin: EdgeInsets.all(15),
+                      color: Color(0xff1d1e33),
+                      child: Text('')),
                 ),
               ],
             ),
@@ -40,14 +38,13 @@ class _InputPageState extends State<InputPage> {
           Expanded(
             child: Row(
               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+              crossAxisAlignment: CrossAxisAlignment.stretch,
               children: [
-                Card(
-                  margin: EdgeInsets.all(15),
-                  color: Color(0xff1d1e33),
-                  child: SizedBox(
-                    height: 200,
-                    width: 360,
-                  ),
+                Expanded(
+                  child: Card(
+                      margin: EdgeInsets.all(15),
+                      color: Color(0xff1d1e33),
+                      child: Text('')),
                 ),
               ],
             ),
@@ -55,22 +52,20 @@ class _InputPageState extends State<InputPage> {
           Expanded(
             child: Row(
               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+              crossAxisAlignment: CrossAxisAlignment.stretch,
               children: [
-                Card(
-                  margin: EdgeInsets.all(15),
-                  color: Color(0xff1d1e33),
-                  child: SizedBox(
-                    height: 200,
-                    width: 150,
+                Expanded(
+                  child: Card(
+                    margin: EdgeInsets.all(15),
+                    color: Color(0xff1d1e33),
+                    child: Text(''),
                   ),
                 ),
-                Card(
-                  margin: EdgeInsets.all(15),
-                  color: Color(0xff1d1e33),
-                  child: SizedBox(
-                    height: 200,
-                    width: 150,
-                  ),
+                Expanded(
+                  child: Card(
+                      margin: EdgeInsets.all(15),
+                      color: Color(0xff1d1e33),
+                      child: Text('')),
                 ),
               ],
             ),
