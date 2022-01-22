@@ -23,7 +23,7 @@ class _InputPageState extends State<InputPage> {
                   color: Color(0xff1d1e33),
                   child: SizedBox(
                     height: 200,
-                    width: 170,
+                    width: 150,
                   ),
                 ),
                 Card(
@@ -31,7 +31,7 @@ class _InputPageState extends State<InputPage> {
                   color: Color(0xff1d1e33),
                   child: SizedBox(
                     height: 200,
-                    width: 170,
+                    width: 150,
                   ),
                 ),
               ],
@@ -61,7 +61,7 @@ class _InputPageState extends State<InputPage> {
                   color: Color(0xff1d1e33),
                   child: SizedBox(
                     height: 200,
-                    width: 170,
+                    width: 150,
                   ),
                 ),
                 Card(
@@ -69,7 +69,7 @@ class _InputPageState extends State<InputPage> {
                   color: Color(0xff1d1e33),
                   child: SizedBox(
                     height: 200,
-                    width: 170,
+                    width: 150,
                   ),
                 ),
               ],
