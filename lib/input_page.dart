@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'card_container.dart';
 
 class InputPage extends StatefulWidget {
   @override
@@ -18,20 +19,8 @@ class _InputPageState extends State<InputPage> {
             child: Row(
               crossAxisAlignment: CrossAxisAlignment.stretch,
               children: [
-                Expanded(
-                  child: Card(
-                    margin: EdgeInsets.all(15),
-                    color: Color(0xff1d1e33),
-                    child: Text(''),
-                  ),
-                ),
-                Expanded(
-                  child: Card(
-                    margin: EdgeInsets.all(15),
-                    color: Color(0xff1d1e33),
-                    child: Text(''),
-                  ),
-                ),
+                ReusableCard(color: Color(0XFF1D1E33)),
+                ReusableCard(color: Color(0XFF1D1E33)),
               ],
             ),
           ),
@@ -39,13 +28,7 @@ class _InputPageState extends State<InputPage> {
             child: Row(
               crossAxisAlignment: CrossAxisAlignment.stretch,
               children: [
-                Expanded(
-                  child: Card(
-                    margin: EdgeInsets.all(15),
-                    color: Color(0xff1d1e33),
-                    child: Text(''),
-                  ),
-                ),
+                ReusableCard(color: Color(0XFF1D1E33)),
               ],
             ),
           ),
@@ -53,20 +36,8 @@ class _InputPageState extends State<InputPage> {
             child: Row(
               crossAxisAlignment: CrossAxisAlignment.stretch,
               children: [
-                Expanded(
-                  child: Card(
-                    margin: EdgeInsets.all(15),
-                    color: Color(0xff1d1e33),
-                    child: Text(''),
-                  ),
-                ),
-                Expanded(
-                  child: Card(
-                    margin: EdgeInsets.all(15),
-                    color: Color(0xff1d1e33),
-                    child: Text(''),
-                  ),
-                ),
+                ReusableCard(color: Color(0XFF1D1E33)),
+                ReusableCard(color: Color(0XFF1D1E33)),
               ],
             ),
           ),
