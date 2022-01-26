@@ -16,7 +16,6 @@ class _InputPageState extends State<InputPage> {
         children: [
           Expanded(
             child: Row(
-              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
               crossAxisAlignment: CrossAxisAlignment.stretch,
               children: [
                 Expanded(
@@ -28,30 +27,30 @@ class _InputPageState extends State<InputPage> {
                 ),
                 Expanded(
                   child: Card(
-                      margin: EdgeInsets.all(15),
-                      color: Color(0xff1d1e33),
-                      child: Text('')),
+                    margin: EdgeInsets.all(15),
+                    color: Color(0xff1d1e33),
+                    child: Text(''),
+                  ),
                 ),
               ],
             ),
           ),
           Expanded(
             child: Row(
-              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
               crossAxisAlignment: CrossAxisAlignment.stretch,
               children: [
                 Expanded(
                   child: Card(
-                      margin: EdgeInsets.all(15),
-                      color: Color(0xff1d1e33),
-                      child: Text('')),
+                    margin: EdgeInsets.all(15),
+                    color: Color(0xff1d1e33),
+                    child: Text(''),
+                  ),
                 ),
               ],
             ),
           ),
           Expanded(
             child: Row(
-              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
               crossAxisAlignment: CrossAxisAlignment.stretch,
               children: [
                 Expanded(
@@ -63,9 +62,10 @@ class _InputPageState extends State<InputPage> {
                 ),
                 Expanded(
                   child: Card(
-                      margin: EdgeInsets.all(15),
-                      color: Color(0xff1d1e33),
-                      child: Text('')),
+                    margin: EdgeInsets.all(15),
+                    color: Color(0xff1d1e33),
+                    child: Text(''),
+                  ),
                 ),
               ],
             ),
